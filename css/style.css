@@ -190,6 +190,47 @@ input {
   color: white;
 }
 
+.footer-top {
+  text-align: center;
+  color: white;
+}
+
+.my-radius {
+  border-radius: 50%;
+  color: white;
+}
+
+.footer-top li {
+  display: inline;
+}
+
+.footer.top ul {
+  padding-inline-start: 0;
+}
+
+.footer.top ul li {
+  list-style: none;
+}
+
+.my-btn-circle {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding: 6px 0;
+  line-height: 1.42;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.footer-top p a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.footer-top p a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .header-nav {
     font-size: 1.5em;
@@ -202,6 +243,11 @@ input {
   .jumbo h1 {
     font-size: 4em;
   }
+}
+
+.footer-bottom {
+  text-align: center;
+  color: white;
 }
 
 @media screen and (min-width: 992px) {
